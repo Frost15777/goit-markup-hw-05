@@ -537,6 +537,10 @@ img {
     display: inline-block;
     margin-bottom: 16px;
 }
+
+.social-media-footer {
+    margin-right: 80px;
+}
 .social-media-text-footer {
     font-weight: 500;
     size: 16px;
