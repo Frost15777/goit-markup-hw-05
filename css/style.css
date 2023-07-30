@@ -729,7 +729,6 @@ img {
 
 .form-input-modal:focus {
     border-color: var(--primary-brand-color);
-    fill: var(--primary-brand-color);
 }
 
 
