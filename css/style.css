@@ -798,6 +798,9 @@ img {
 .form-input-modal:focus {
     border-color: var(--primary-brand-color);
 }
+.form-input-modal:focus + .form-icon-modal {
+    fill: var(--primary-brand-color);
+}
 
 
 .is-hidden {
