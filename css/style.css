@@ -784,12 +784,8 @@ img {
 .input-checkbox-modal:checked + .label-checkbox-modal .span-checkbox-modal {
     background-color: var(--pressed-state-color);
     border: none;
-} 
-.input-checkbox-modal:focus+.label-checkbox-modal .span-checkbox-modal {
-    background-color: var(--pressed-state-color);
-    border: none;
     fill: var(--light-color);
-}
+} 
 
 .form-input-modal {
     width: 100%;
