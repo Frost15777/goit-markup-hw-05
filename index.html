@@ -17,6 +17,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
   </head>
 
@@ -29,6 +30,17 @@
           <a href="./index.html" class="link-logo link"
             >Web<span class="logo-header">Studio</span></a
           >
+
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg width="32" height="22">
+              <use href="./images/icons.svg#icon-charm-menu"></use>
+            </svg>
+          </button>
+
           <ul class="list-header list">
             <li>
               <a href="./index.html" class="page-link-studio link">Studio</a>
@@ -537,6 +549,47 @@
         </form>
       </div>
     </div>
+
+    <!-- Mobile -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+    <button
+            class="menu-toggle js-close-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg width="32" height="22">
+              <use href="./images/icons.svg#icon-charm-menu"></use>
+            </svg>
+          </button>
+
+          <ul class="mobile-menu">
+            <li>
+              <a href="./index.html" class="page-link-studio link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="page-link link">Portfolio</a>
+            </li>
+            <li><a href="" class="page-link link">Contacts</a></li>
+          </ul>
+        </nav>
+        <!--Contacts-->
+        <address class="header-contacts">
+          <ul class="list-header list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="contacts link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="contacts link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        </div>
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu-js"></script>
   </body>
 </html>
